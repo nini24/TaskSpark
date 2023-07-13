@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taskspark</title>
+<link rel="stylesheet" type="text/css" href="Styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="./Favicon.svg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <section class="naviga">
+    <nav class="navi">
+        <a href="./Index.html" class="logo">
+            <img src="./Logo.svg" alt="site logo"/>
+        </a>
+        <ul class="nav-links">
+            <li class="nav-item active"><a class="current" href="">Home</a></li>
+            <li class="nav-item"><a href="./About.html">About</a></li>
+
+        </ul>
+    </nav>
+    </section>
+
+    <section class="hero">
+        <div class="hero-div">
+            <p class="hero-header">Generate random UX <span class="header-span">design tasks.</span></p>
+            <p class="hero-p">Sharpen your design skills with specially curated tasks on TaskSpark.</p>
+            <a href="./Taskpage.html"><button class="startbtn">Get a task now</button></a>
+            <img class="hero-image" src="./Hero Image-Web.png" alt="Hero Image"> 
+        </div>
+    </section>
+
+    <section class="contribute">
+        <div class="contribute-div">
+            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="60" viewBox="0 0 42 60" fill="none" class="circleone">
+                <circle cx="-18" r="59.5" stroke="#E1FFE2"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="39" viewBox="0 0 50 39" fill="none" class="circletwo">
+                <circle cx="50" cy="50" r="49.5" stroke="#FFE7E7"/>
+              </svg>
+            <p class="contribute-header">Want to contribute <span><img class="emoji" src="./Grinning Face.png" /></span></p>
+            <p class="contribute-p">You can help other designers grow by sharing cool tasks on TaskSpark.</p>
+            
+            <button class="contributebtn btn-open" id="modalbtns">Contribute now</button>
+        </div>
+    </section>
+    <div class="modal" id="modals">
+        <div class="modal-body">
+            <div class="modal-header"><p>Submit a contribution</p>
+                <button class="btn-close">&times</button>
+            </div>
+            <div class="modal-form">
+                <form action="https://public.herotofu.com/v1/1983fda0-2168-11ee-9c7c-c1fbf0c86ddd" method="post" accept-charset="UTF-8">
+                    <label for="name">Your name</label><br/>
+                    <input type="text" class="name" id="name" required /><br/>
+                    <label for="description">Design Task Description</label><br/>
+                    <input type="text"  id="description" class="descriptioninput" required />
+                    <button class='formsubmit' type="submit" id="submit">Submit</button>
+                    <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="foot">
+            <div class="foot-div">
+                <p class="foot-header">Made with &hearts; by <a href="https://wasola.webflow.io/" target="_blank"><span class="footerspan">Wasola</span></a></p>
+                <p class="foot-p">July 2023</p>
+            </div>
+        </section>
+    </footer>
+    <script src="./Index.js"></script>
+
+</body>
+
+</html>
