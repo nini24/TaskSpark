@@ -101,6 +101,9 @@ margin: auto;
     margin: 60px 0 120px 0;
     width: 100%;
 }
+.hero .hero-div .hero-image-mobile {
+    display: none;
+}
 
 .contribute {
     height: 500px;
@@ -255,6 +258,8 @@ margin: auto;
 .taskcard .taskcardbtn:hover {
     background-color: #460898;
 }
+
+
 .about{
     margin-top: 100px;
 }
@@ -410,3 +415,259 @@ margin: auto;
   
 
   
+
+
+/* Mobile Styling     */
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        width: 100%;
+        margin: 0 !important;
+    }
+    .navi {
+        height: 72px;
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 2%;
+        height: 20px;
+    }
+
+        .nav-item a {
+            font-size: 14px;
+        }
+
+        .nav-item a:first-child {
+            padding-right: 60px;
+        }
+        
+        .nav-item a:last-child {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .hero-div {
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            }
+
+            .hero {
+                margin-top: 80px;
+                padding: 0 20px 0 20px;
+            }
+            .hero .hero-div .hero-header {
+                font-size: 38px;
+                font-weight: 500;
+                line-height: 48px;  
+                margin: 0;
+
+            }
+            .hero .hero-div .hero-p {
+                font-size: 18px;
+                line-height: 26px; 
+                margin: auto;
+                padding-top: 16px;
+                width: 335px;
+            }
+            
+            .hero .hero-div button {
+                margin: 52px;
+                font-family: 'Work Sans';
+                padding: 18px 64px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 600px;
+                background-color: #3A077B;
+                color: white;
+                border: 1px solid #000;
+                box-shadow: 4px 4px 0px 0px #000;
+                cursor: pointer;
+            }
+
+            .hero .hero-div .hero-image {
+                display: none;
+            }
+
+            .hero .hero-div .hero-image-mobile {
+                display: block;
+                width: 100%;
+                margin-top: 64px;
+                margin-bottom: 100px;
+            }
+            
+            .contribute {
+                height: 280px;
+                margin: 0;
+                width: 100%;
+                background-color: #3A077B;
+            }
+            
+            .contribute .contribute-div {
+                padding-top: 44px;
+                text-align: center;
+            }
+            
+
+            .contribute .contribute-div .contribute-header {
+                font-size: 24px;
+                line-height: 24px;
+                font-weight: 500px;
+                margin: 0;
+            }
+            
+            .contribute .contribute-div .contribute-p {
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 400px;
+                margin: auto;
+                padding-top: 8px;
+                width: 274px;
+                text-align: center;
+            }
+
+            .contribute .contribute-div .contributebtn {
+                margin-top: 28px;
+                padding: 12px 22px;
+                font-size: 14px;
+                line-height: 22px;
+                font-weight: 500;
+            }
+
+            .circleone {
+                position: absolute;
+                left: 0px;
+            }
+            
+            .circletwo {
+                position: absolute;
+                right: 0px;
+                margin-top: 180px;
+            }
+            
+            .emoji {
+                height: 24px;
+            }
+
+            .foot {
+                margin: 0;
+                height: 110px;
+                padding-bottom: 0px;
+            }
+
+            .foot .foot-div {
+                padding-top: 25px;
+            }
+
+
+            .foot .foot-div .foot-header {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            
+            .foot .foot-div .foot-p {
+                font-size: 10px;
+                line-height: 14px;
+
+            }
+
+            .taskcard {
+                margin: 60px 20px 100px 20px;
+                
+            }
+            
+            .taskcard .taskcard-div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: auto;
+                padding: 40px 20px 40px 20px;
+                width: auto;
+                height: auto;
+            }
+            .taskcard .taskcard-div .taskcard-title {
+                font-size: 14px;
+                line-height: 18px;
+            }
+            
+            .taskcard .taskcard-div .taskcard-description {
+                font-size: 16px;
+                line-height: 24px;
+                margin-top: 12px;
+            }
+            
+            .taskcard .taskcardbtn-div {
+                margin: 0 20px 0 0px;
+                padding-top: 40px;
+                width: 100%;
+            }
+            
+            .taskcard .taskcardbtn {
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 18px;
+                width: 100%;
+                margin: auto;
+                text-align: center;
+            }
+
+            .about{
+                margin-top: 100px;
+                padding: 0 20px 0 20px ;
+            }
+
+            .about .aboutdiv img {
+                height: 300px;
+                margin-bottom: 32px;
+            }
+
+
+            .about .aboutdiv .aboutp {
+                font-size: 16px;
+                line-height: 24px;
+                width: 100%;
+                padding-bottom: 24px;
+            }
+
+            .about .aboutdiv button {
+                margin-top: 32px;
+                margin-bottom: 60px;
+                padding: 12px 15px;
+                font-size: 14px;
+                line-height: 18px;
+            }
+            
+
+
+            .modal-body {
+                width: 335px;
+                height: 45%;
+                padding: 16px 28px 60px 28px;
+            }
+
+            .modal-body .modal-header {
+                font-size: 22px;
+                line-height: 26px;
+            }
+
+            .modal-form input {
+                width: 96%;
+                height: 48px;
+                margin-top: 8px;
+                margin-bottom: 28px;
+                font-size: 16px;
+            }
+
+            .modal-form .formsubmit {
+                width: 100%;
+                border-radius: 8px;
+                padding: 16px 20px;
+                font-size: 14px;
+                line-height: 22px;
+                margin-top: 32px;
+            
+            }
+  }
