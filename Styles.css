@@ -342,13 +342,14 @@ margin: auto;
 }
 
 .btn-close {
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 0.5rem 0.7rem;
     border: none;
     background-color: #f8f8f8;
     font-family: 'Work Sans';
     font-size: 24px;
     cursor: pointer;
+    color: #141414;
 }
 
 .show-modal {
@@ -644,7 +645,7 @@ margin: auto;
 
             .modal-body {
                 width: 335px;
-                height: 45%;
+                height: 50%;
                 padding: 16px 28px 60px 28px;
             }
 
