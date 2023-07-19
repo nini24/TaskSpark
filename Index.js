@@ -6,11 +6,32 @@ var tasks = [{
     description:'Design the process of adding new payment cards to a Fintech app.'
 }, {
     title:'Spotify Merch Purchase',
-    description:'Spotify adds a new update that lets users buy merch of their favourite artists. Design this integration.'
+    description:'Spotify adds a new update that lets users buy merch of their favourite artists. Design this integration. (Solving Product Design Exercises - Artiom Dashinsky)'
 }, {
     title:'Digital Artist Portfolio',
     description:'An emerging digital artist reached out to you and would like a simple website to display their art. Design this website.'
+},
+{
+    title:'Templates Design',
+    description:'Design four different layouts for the newsletter section of a website homepage.'
+},
+{
+    title:'HRM Dashboard',
+    description:'Design an onboarding planner for 10 new members of staff.'
+},
+{
+    title:'Two-Factor Authentication',
+    description:'Design the process of enabling 2FA in a fintech application.'
+},
+{
+    title:'Edu-tech Web-app',
+    description:'Design the quiz section in an online learning website. This should include a view for listing the quiz questions, selecting answers and the quiz results.'
+},
+{
+    title:'Twitter Cards',
+    description:'Sharing your profile link on Twitter now displays as a card. Design this card that shows your profile picture, username, and bio.'
 }
+
 
 ]
 
